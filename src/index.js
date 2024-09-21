@@ -18,6 +18,13 @@ function dividir(a, b) {return a / b;
 function ehPar(numero) {return numero % 2 === 0;
 }
 
+// Função que verifica se um número é ímpar
+function ehImpar(numero) {
+  return numero % 2 !== 0;
+}
+
+
+
 // Exporta todas as funções para serem usadas nos testes
 module.exports = {
   somar,
